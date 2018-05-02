@@ -10,7 +10,7 @@ public class Series {
 
 	            for (int j = i; j < i + 13; j++) {
 	            	
-	                product *= Integer.parseInt(s.substring(j, j + 1));
+	                product =product* Integer.parseInt(s.substring(j, j + 1));
 	            }
 	            if (product > largestProduct) largestProduct = product;
 	        }
